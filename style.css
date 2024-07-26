@@ -12,16 +12,21 @@ body {
     linear-gradient(to right, #E1E8FF 2px, transparent 1px),
     linear-gradient(to bottom, #E1E8FF 2px, transparent 1px);
     cursor: url('Images2/Cursor2.png'), auto;
+    cursor: url('Images2/Cursor2.png'), pointer;
   
 }
 
 body:active {
 	cursor: url('Images2/Cursor2.png'), auto;
+	cursor: url('Images2/Cursor2.png'), pointer;
 }
 
 body:hover {
 	cursor: url('Images2/Cursor2.png'), auto;
+	cursor: url('Images2/Cursor2.png'), pointer;
 }
+
+
 
 .custom-cursor {
 	position: absolute;
@@ -278,6 +283,23 @@ body:hover {
 	border-color: #4378FF;
 	border-width: 5px;
 
+}
+
+#main3 video {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	height: auto;
+	padding: 20px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #4378FF;
+	border-width: 5px;
+
+}
+
+#main3 {
+	text-align: center;
 }
 #main2 img {
 	width: 50%;
