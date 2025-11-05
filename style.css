@@ -438,6 +438,7 @@ h2 {
  font-family: "loos-normal", sans-serif;
 font-weight: 700;
 font-style: normal;
+padding-top: 50px;
 }
 
 h3 {
@@ -554,3 +555,5 @@ a:visited {
   border-style: solid;
   font-weight: 700;
 }
+
+
